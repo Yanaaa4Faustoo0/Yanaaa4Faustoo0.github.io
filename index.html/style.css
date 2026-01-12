@@ -1,0 +1,89 @@
+* {
+   box-sizing: border-box; 
+   font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    background-color: lightpink;
+}
+
+header {
+    padding: 20px;
+    background-color: beige;
+    color: ghostwhite;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    min-height: 80vh;
+}
+
+nav {
+    background-color: rosybrown;
+    width: 200px;
+    padding: 20px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: floralwhite;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    gap: 20px; 
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #ff66b2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    background-color:lightpink ;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:plum; 
+}
