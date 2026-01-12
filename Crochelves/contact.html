@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cozy Stitches - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="images/logo.png" alt="Logo">
+  <h1>Crochelves</h1>
+</header>
+
+<div class="container">
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Contact Us</h2>
+
+    <form onsubmit="sendMessage(event)">
+      <label>Name</label><br>
+      <input type="text" required><br><br>
+
+      <label>Message</label><br>
+      <textarea rows="5" required></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+
+  </main>
+
+</div>
+
+
+<footer>
+  <p>©2026 Crochelves | Contact us: crochelveshelp@gmail.com</p>
+</footer>
+
+<script>
+function sendMessage(e) {
+  e.preventDefault();
+  alert("Message sent successfully!");
+}
+</script>
+
+</body>
+</html>
