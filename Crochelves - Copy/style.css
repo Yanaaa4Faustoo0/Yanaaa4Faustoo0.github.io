@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f3e9dc;
+}
+
+header {
+  background-color: #f4a7a3;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 60px;
+}
+
+header h1 {
+  margin-left: 10px;
+}
+
+.header-right a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  min-height: 80vh;
+}
+
+
+nav {
+  width: 200px;
+  background-color: white;
+  padding-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 15px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  display: block;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #e6d9ff;
+}
+main {
+  flex: 1;
+  padding: 30px;
+}
+
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.product-card {
+  width: 22%;
+  text-align: center;
+}
+
+.product-box {
+  background: white;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.product-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.form-box {
+  background: white;
+  width: 360px;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.signup-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.signup-column {
+  flex: 1;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f4a7a3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f7b5af;
+}
+
+.header-right a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+.header-right a:hover {
+  background-color: #e6d9ff;
+  color: black;
+}
+
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.profile-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 500px;
+}
+
+.profile-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+footer {
+  background-color: #f4a7a3;
+  text-align: center;
+  padding: 10px;
+}
+
